@@ -1,0 +1,2 @@
+class Brewery < User
+end

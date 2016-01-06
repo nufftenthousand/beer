@@ -40,6 +40,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.5'
   gem 'poltergeist', '~> 1.8', '>= 1.8.1'
   gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
+  gem 'shoulda', '~> 3.5'
 end
 
 group :development do
