@@ -37,8 +37,9 @@ group :development, :test do
   gem 'rspec-mocks'       , github: 'rspec/rspec-mocks'
   gem 'rspec-support'     , github: 'rspec/rspec-support'
   gem 'capybara', '~> 2.5'
-  gem 'factory_girl', '~> 4.5'
+  gem 'factory_girl_rails', '~> 4.5'
   gem 'poltergeist', '~> 1.8', '>= 1.8.1'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
 end
 
 group :development do
