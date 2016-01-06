@@ -1,3 +1,45 @@
+GIT
+  remote: git://github.com/rspec/rspec-core.git
+  revision: fdd43b36147838e1d758dafd6e048cf76f7229df
+  specs:
+    rspec-core (3.5.0.pre)
+      rspec-support (= 3.5.0.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-expectations.git
+  revision: d17110bdd0dca2e8daa3339c0fcfafcc5dc31a9c
+  specs:
+    rspec-expectations (3.5.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.5.0.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-mocks.git
+  revision: 7369e6b949585114bc1e9f20885d64a65f95cc31
+  specs:
+    rspec-mocks (3.5.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.5.0.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-rails.git
+  revision: 9eee11a84c6740bd7551c3ad5d8057512d91ea92
+  specs:
+    rspec-rails (3.5.0.pre)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (= 3.5.0.pre)
+      rspec-expectations (= 3.5.0.pre)
+      rspec-mocks (= 3.5.0.pre)
+      rspec-support (= 3.5.0.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-support.git
+  revision: 87c57da0804e3fc27bbb3371a475389c44e64a67
+  specs:
+    rspec-support (3.5.0.pre)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +124,7 @@ GEM
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.0)
     debug_inspector (0.0.2)
+    diff-lcs (1.2.5)
     em-hiredis (0.3.0)
       eventmachine (~> 1.0)
       hiredis (~> 0.5.0)
@@ -200,6 +243,11 @@ DEPENDENCIES
   poltergeist (~> 1.8, >= 1.8.1)
   puma
   rails (>= 5.0.0.beta1, < 5.1)
+  rspec-core!
+  rspec-expectations!
+  rspec-mocks!
+  rspec-rails!
+  rspec-support!
   spring
   turbolinks
   tzinfo-data

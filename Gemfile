@@ -30,9 +30,12 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.10'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-end
-
-group :test do
+  #gem 'rspec-rails', '~> 3.4'
+  gem 'rspec-rails'       , github: 'rspec/rspec-rails'
+  gem 'rspec-core'        , github: 'rspec/rspec-core'
+  gem 'rspec-expectations', github: 'rspec/rspec-expectations'
+  gem 'rspec-mocks'       , github: 'rspec/rspec-mocks'
+  gem 'rspec-support'     , github: 'rspec/rspec-support'
   gem 'capybara', '~> 2.5'
   gem 'factory_girl', '~> 4.5'
   gem 'poltergeist', '~> 1.8', '>= 1.8.1'
