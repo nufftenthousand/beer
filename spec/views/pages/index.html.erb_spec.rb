@@ -1,0 +1,9 @@
+require 'rails_helper'
+
+RSpec.describe "pages/index.html.erb", type: :view do
+  it "contains a title" do
+    render
+
+    expect(rendered).to match /The Beer App/
+  end
+end
